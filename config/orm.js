@@ -10,12 +10,12 @@ function printQuestionMarks(num) {
     return arr.toString();
 };
 
-function objToSql(ob) {
+function objToSql(obj) {
     var arr = [];
 
     for (var key in obj) {
-        var value = ob[key];
-        if (Object.hasOwnProperty.call(ob, key)) {
+        var value = obj[key];
+        if (Object.hasOwnProperty.call(obj, key)) {
             if (typeof value === "string" && value.indexOf(" ") >=0) {
                 value = "'" + value + "'";
             }
