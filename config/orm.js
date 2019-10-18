@@ -27,10 +27,13 @@ function objToSql(obj) {
 
 var orm = {
     selectAll: function(tableInput, cb) {
-        var queryString = "SELECT * FROM burger;";
+        var queryString = "SELECT * FROM " + tableInput + ";";
         
         connection.query(queryString, function(err, result) {
-            if (err) throw err;
+            if (err) {
+                console.log("Error line 33");
+                throw err;
+            }
             cb(result);
         });
     },
