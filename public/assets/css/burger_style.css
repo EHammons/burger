@@ -1,17 +1,36 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
+body {
+    background-image: url("../img/burger.jpg");
+    background-size: contain;
+    background-repeat: repeat;
 }
 
-.label {
-    font-weight: bold;
+.title {
+    color: rgb(255, 240, 221);
+    background: brown;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 240, 221)!important;
+    background: peru;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 5px auto;
 }
 
 .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    background: lawngreen;;
 }
 
 .form-group {
@@ -24,10 +43,11 @@ li {
 }
 
 .eaten {
-    float: left;
+    float: right;
     width: 45%;
 }
 
 .form {
+    padding-top: 15px;
     clear: both;
 }
