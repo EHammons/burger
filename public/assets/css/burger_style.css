@@ -17,3 +17,17 @@ li {
 .form-group {
     margin-bottom: 5px;
 }
+
+.toEat {
+    float: left;
+    width: 45%;
+}
+
+.eaten {
+    float: left;
+    width: 45%;
+}
+
+.form {
+    clear: both;
+}
