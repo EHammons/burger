@@ -30,10 +30,7 @@ var orm = {
         var queryString = "SELECT * FROM " + tableInput + ";";
         
         connection.query(queryString, function(err, result) {
-            if (err) {
-                console.log("Error line 33");
-                throw err;
-            }
+            if (err) throw err;
             cb(result);
         });
     },
