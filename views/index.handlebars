@@ -1,4 +1,4 @@
-<h1>Burgers!</h1>
+<h1>Burgers Burgers Burgers!!</h1>
 
 <h2>Burgers to be devoured:</h2>
 
@@ -40,7 +40,7 @@ $(function() {
       devoured: newDevour
     };
 
-    $.ajax("/api/cats/" + id, {
+    $.ajax("/api/burgers/" + id, {
       type: "PUT",
       data: newDevourState
     }).then(
@@ -58,7 +58,7 @@ $(function() {
       name: $("#bu").val().trim()
     };
 
-    $.ajax("/api/cats", {
+    $.ajax("/api/burgers", {
       type: "POST",
       data: newBurger
     }).then(
