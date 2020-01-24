@@ -16,7 +16,7 @@ https://eat-da-burger-final.herokuapp.com/
 This is a deployed app that lets users "Eat" burgers. When "eaten" the burger moves to the right column. You can move it back by "Remaking" it. You can also add a new burger.
 
 ## Screenshots
-![Screenshot](public/assets/img/screenshot.png)<br>
+![Screenshot](public/assets/img/eat-da-burger.png)<br>
 
 ## Technologies
 * MySQL
