@@ -47,8 +47,9 @@ List of features ready and TODOs for future development:
 Project is: _finished_
 
 ## Inspiration
-Based on a homework assignment for The Coding Bootcamp at UT Austin
+Inspired by burgers. Their color, shape and deliciousness!
+Based on the burger assignment for The Coding Bootcamp at UT Austin.
 
 ## Contact
 Created by Elise Hammons - feel free to contact me!
-<br>LinkedIn: https://www.linkedin.com/in/elise-h-01243258/
+<br>[LinkedIn](https://www.linkedin.com/in/elise-h-01243258/)
