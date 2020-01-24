@@ -1,10 +1,12 @@
-# burger
-> Eat-Da-Burger! Deployed at: https://calm-savannah-00376.herokuapp.com/
+# Eat-Da-Burger!
+> Create, eat and remake your favorite burgers.
+## Deployed App
+https://eat-da-burger-final.herokuapp.com/
 
 ## Table of contents
 * [General info](#general-info)
+* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -13,13 +15,13 @@
 ## General info
 This is a deployed app that lets users "Eat" burgers. When "eaten" the burger moves to the right column. You can move it back by "Remaking" it. You can also add a new burger.
 
+## Screenshots
+![Screenshot](public/assets/img/screenshot.png)<br>
+
 ## Technologies
 * MySQL
 * JavaScript
 * handlebars
-
-## Setup
-Visit https://calm-savannah-00376.herokuapp.com/
 
 ## Code Examples
     router.post("/api/burgers", function(req, res) {
@@ -32,10 +34,14 @@ Visit https://calm-savannah-00376.herokuapp.com/
         });
 
 ## Features
-List of features ready and TODOs for future development
+List of features ready and TODOs for future development:
+### Features
 * Chose to eat a pre-filled burger.
 * Chose to remake a burger you have already eaten.
 * Create your own burger to eat.
+### Design
+* Colors based off burgers! Lettuce, tomato, burger and bun!
+* Rounded corners make headings look like buns!
 
 ## Status
 Project is: _finished_
